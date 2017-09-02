@@ -1,0 +1,113 @@
+
+
+body { 
+
+	background-color: black;
+
+
+	width: 100%;
+	height: 100%;
+	
+
+
+ }
+
+
+
+h2 {
+
+	font-family: 'VT323', monospace;
+	text-align: center;
+	margin: 25px;
+	font-size: 500%;
+	color: #48ff48;
+	z-index: 2;
+	
+
+}
+
+h3 {
+		
+font-family: 'VT323', monospace;
+	text-align: center;
+	margin: 25px;
+	font-size: 500%;
+	color: #48ff48;
+	z-index: 2;
+}
+
+.background-image {
+
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+	z-index: 1;
+}
+
+p {
+
+	font-family: 'VT323', monospace;
+	text-align: center;
+	font-size: 150%;
+	color: #48ff48;
+}
+
+#select { 
+
+	font-family: 'VT323', monospace;
+	text-align: center;
+	font-size: 150%;
+	color: #48ff48;
+
+ }
+
+ input {
+
+		text-align: center;
+		caret-color: #68ce25;
+    	background-color: black;
+    	color: #68ce26;
+
+ }
+
+
+.scanlines { 
+
+	border: 5px solid green;
+
+ }
+
+ .col-md-6 {
+
+ 	border-top: 5px solid green;
+ }
+
+ .blink {
+
+    animation: blinker .03s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+  75% { opacity: .4; }
+} 
+
+img { 
+	width: 50%;
+	display: inline-flex;
+
+ }
+
+#hiddenWord {
+  font-size: 20px;
+  font-family: monospace;
+  margin-right: 50px;
+}
+
+pre {
+
+	background-color: black;
+    color: #26f526;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+}
