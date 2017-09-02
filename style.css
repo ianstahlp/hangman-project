@@ -48,7 +48,7 @@ p {
 
 	font-family: 'VT323', monospace;
 	text-align: center;
-	font-size: 150%;
+	font-size: 350%;
 	color: #48ff48;
 }
 
@@ -95,7 +95,7 @@ p {
 img { 
 	width: 50%;
 	display: inline-flex;
-
+	margin-left: 25%;
  }
 
 #hiddenWord {
@@ -110,4 +110,7 @@ pre {
     color: #26f526;
     font-weight: bold;
     font-family: 'VT323', monospace;
+    border: none;
+    margin-left: 41%;
 }
+

@@ -4,7 +4,7 @@ var guessCount;
 var hiddenLetters = [];
 
 function startGame() {
-    console.clear(); // Clears the console so we don't get confused between executions
+    
     fellowshipMember = pickfellowshipMember(); // This function picks a secret word and displays it in console
 
     // Create an array of "hidden" letters the same length as the secret word, fill it with the '_' char
@@ -25,10 +25,8 @@ function guess() {
     // Get the users guess from the textbox
     var userGuess = document.getElementById('input').value;
 
-    // Clear the textbox ready for the next guess
     document.getElementById('input').value = "";
-    console.log(userGuess)
-    // This checks to see if the letter they guessed is in the word
+    console.log(userGuess);
     isGuessInfellowshipMember(userGuess);
 
     // Display how many guesses they have left
@@ -98,4 +96,3 @@ function winChecker() {
 //There was supposed to be a point where I was supposed to present a hint to left of the screen, but after a few days of not being 
 //able to go over that hump, I quit. this is the code that was supposed to do something about that: 
 
-	

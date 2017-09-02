@@ -19,15 +19,17 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h2>This is your singular hint</h2>
-                <p id="lettersGuessed">Fool</p>
+                <h2>PAY ATTENTION TO YOUR GUESSES</h2>
+                
+                <p id="guessCount"></p>
+                <p id="result"></p>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <h2>This is where you will guess</h2>
                     <input type="button" onclick="startGame()" value="Start Game" id="button" />
-                    <input type="text" id="input" onkeyup="guess()" style="display:none; width:20px;" />
-                    <pre id="hiddenWord"></pre>
+                    <input type="text" id="input" onkeyup="guess()" style="display:none; width:40px; font-size: 40px; font-family: 'VT323', monospace; border: none" />
+                    <pre id="hiddenWord" style="font-family: 'VT323', monospace"></pre>
                     <p id="guessCount"></p>
                     <p id="result"></p>
                     <h3>good luck</h3>
